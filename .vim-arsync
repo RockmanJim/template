@@ -1,0 +1,10 @@
+remote_host    10.88.36.105
+remote_user    puke
+remote_port    22
+remote_path     /lvmdata/puke/qingshan/docker_template
+local_path    /Users/xinwei/Downloads/template
+ignore_path     ["build/","test/"]
+ignore_dotfiles 1
+auto_sync_up    1
+remote_or_local remote
+sleep_before_sync 0
